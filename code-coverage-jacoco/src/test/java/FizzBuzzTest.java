@@ -10,8 +10,6 @@ import static org.junit.Assert.assertThat;
  */
 public class FizzBuzzTest {
 
-<<<<<<< HEAD
-=======
     private FizzBuzz fizzBuzz;
 
     @Before
@@ -38,6 +36,5 @@ public class FizzBuzzTest {
     public void getFizzBuzzWord_NumberIsNotMultipleOfThreeOrFive_ShouldReturnNull() {
         assertNull(fizzBuzz.getFizzBuzzWord(4));
     }
->>>>>>> 2a06ca5e4dea30804c523cffe6c04278bfd0d0de
 
 }
